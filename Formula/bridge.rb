@@ -2,12 +2,12 @@ class Bridge < Formula
   desc "systemprompt bridge — client-side agent for the systemprompt AI governance gateway"
   homepage "https://systemprompt.io"
   license "MIT AND BUSL-1.1"
-  version "0.9.0"
+  version "0.17.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/systempromptio/systemprompt-core/releases/download/bridge-v0.9.0/systemprompt-bridge-aarch64-apple-darwin"
-      sha256 "3b656b8beb4f0351646edd4a6241c1f3abc150a5098fac851052bb074a5a3aba"
+      url "https://github.com/systempromptio/systemprompt-core/releases/download/bridge-v0.17.0/systemprompt-bridge-aarch64-apple-darwin"
+      sha256 "bf0c2b9e32a4aa585e056471815487b03b9e0ef7af7626bed3cf6045a4168570"
 
       def install
         bin.install "systemprompt-bridge-aarch64-apple-darwin" => "systemprompt-bridge"
@@ -17,8 +17,8 @@ class Bridge < Formula
 
   on_linux do
     on_intel do
-      url "https://github.com/systempromptio/systemprompt-core/releases/download/bridge-v0.9.0/systemprompt-bridge-x86_64-unknown-linux-gnu"
-      sha256 "53e977bd5827a80c39c01ce3d0741c527336ab71be2795e95a9c1942a4e286ef"
+      url "https://github.com/systempromptio/systemprompt-core/releases/download/bridge-v0.17.0/systemprompt-bridge-x86_64-unknown-linux-gnu"
+      sha256 "09e2150d00489c8ebddbde45036471d63d127e43127e17c386ec06b5c4f1adbc"
 
       def install
         bin.install "systemprompt-bridge-x86_64-unknown-linux-gnu" => "systemprompt-bridge"
