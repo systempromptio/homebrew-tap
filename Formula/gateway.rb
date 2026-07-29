@@ -2,21 +2,21 @@ class Gateway < Formula
   desc "Self-hosted AI governance gateway — JWT, scope, secret-scan, blocklist, rate-limit on every tool call"
   homepage "https://systemprompt.io"
   license "MIT"
-  version "0.26.0"
+  version "0.27.0"
 
   on_macos do
-    url "https://github.com/systempromptio/systemprompt-template/releases/download/v0.26.0/systemprompt-gateway-0.26.0-darwin-arm64.tar.gz"
-    sha256 "c536c4c80aa8f5645af74b6f7888e9dcce348192f443a19d1372cd6a6f439e74"
+    url "https://github.com/systempromptio/systemprompt-template/releases/download/v0.27.0/systemprompt-gateway-0.27.0-darwin-arm64.tar.gz"
+    sha256 "a5a9d8618e0c70032b83bd44cac3da054e5fbafe8a971b1b4e3ba93f01459a58"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/systempromptio/systemprompt-template/releases/download/v0.26.0/systemprompt-gateway-0.26.0-linux-amd64.tar.gz"
-      sha256 "ca81258615579ed5d98b9d6801d1e9a129b1d05f002504e5e0abbf6d49cd2dfa"
+      url "https://github.com/systempromptio/systemprompt-template/releases/download/v0.27.0/systemprompt-gateway-0.27.0-linux-amd64.tar.gz"
+      sha256 "b64205869cea67f176ace6a3f5a485c318214c77eb63026094d0f307f278073b"
     end
     on_arm do
-      url "https://github.com/systempromptio/systemprompt-template/releases/download/v0.26.0/systemprompt-gateway-0.26.0-linux-arm64.tar.gz"
-      sha256 "004707b5dbaf4a2b8ac86cca4d269a50bb38fda3208ef85d51072f985f1f4f18"
+      url "https://github.com/systempromptio/systemprompt-template/releases/download/v0.27.0/systemprompt-gateway-0.27.0-linux-arm64.tar.gz"
+      sha256 "6eeabaefdbcea7a3e9347a45a7958f718a9f23d6ad6518491f6ee281f682a5ad"
     end
   end
 
