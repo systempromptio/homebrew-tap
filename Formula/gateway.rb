@@ -6,17 +6,17 @@ class Gateway < Formula
 
   on_macos do
     url "https://github.com/systempromptio/systemprompt-template/releases/download/v0.29.0/systemprompt-gateway-0.29.0-darwin-arm64.tar.gz"
-    sha256 "8f84bbcf894477437e194ad164b9f954b9f75dd2198bc2b779f0b5453cff46a6"
+    sha256 "4b4ee779222bec9b2002865f8aba94ad1994245f595668f5d5a08d5620bd0b6d"
   end
 
   on_linux do
     on_intel do
       url "https://github.com/systempromptio/systemprompt-template/releases/download/v0.29.0/systemprompt-gateway-0.29.0-linux-amd64.tar.gz"
-      sha256 "aed490d0dda39a9faaca5fca03be1da2a9c27725145eebb53a2f41b5f12f9362"
+      sha256 "29ed28cf515a0c204a6d4bac77989118f5f1371247728e98dcf7d3afe32da1c7"
     end
     on_arm do
       url "https://github.com/systempromptio/systemprompt-template/releases/download/v0.29.0/systemprompt-gateway-0.29.0-linux-arm64.tar.gz"
-      sha256 "c307824cb6172419856e4099297fd9710472f8ba2f9ea9ef1e48572fd390ef88"
+      sha256 "384a9f7e06681c2e97b28e14550e79693123d50de2fb390adaf7c6375311c9ba"
     end
   end
 
